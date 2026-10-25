@@ -1,6 +1,9 @@
 # Posted reels log
 Newest first. One line per reel: date | slot | metaphor | lesson | quote (if any)
 
+- 2026-10-26 | 20:00 | comfort-zone circle that grows | Nothing grows inside your comfort zone; step out and the circle grows with you (growth) | none
+- 2026-10-26 | 12:30 | paycheck pie sliced up by bills | Pay yourself first, don't wait for the leftovers (money habits) | none
+- 2026-10-26 | 07:30 | fork in the road (easy downhill vs hard uphill) | Easy choices now make a hard life; hard choices make an easy one (discipline/mindset) | "Easy choices, hard life. Hard choices, easy life." (often attributed to Jerzy Gregorek)
 - 2026-10-25 | 20:00 | locked door and a pile of wrong keys | Every failure is one less key to try; keep going until it clicks (failure/persistence) | "I have not failed. I've just found 10,000 ways that won't work." (often attributed to Thomas Edison)
 - 2026-10-25 | 12:30 | snowball rolling and growing | Start small, start early, let time do the heavy lifting (money habits) | none
 - 2026-10-25 | 07:30 | mountain climb in a storm | Motivation gets you started, discipline gets you to the top (discipline/mindset) | none
