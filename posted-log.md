@@ -1,6 +1,9 @@
 # Posted reels log
 Newest first. One line per reel: date | slot | metaphor | lesson | quote (if any)
 
+- 2026-10-27 | 20:00 | pulling a heavy cart (boss rides on top vs leader pulls first) | A boss says "go", a leader says "let's go"; lead from the front (leadership) | none
+- 2026-10-27 | 12:30 | leaky bucket under a paycheck tap | Before you earn more, plug the small leaks (money habits) | "Beware of little expenses; a small leak will sink a great ship." (Benjamin Franklin, The Way to Wealth, 1758)
+- 2026-10-27 | 07:30 | digging wells (many shallow holes vs one deep hole) | Focus: dig one deep hole instead of ten shallow ones (discipline/mindset) | none
 - 2026-10-26 | 20:00 | comfort-zone circle that grows | Nothing grows inside your comfort zone; step out and the circle grows with you (growth) | none
 - 2026-10-26 | 12:30 | paycheck pie sliced up by bills | Pay yourself first, don't wait for the leftovers (money habits) | none
 - 2026-10-26 | 07:30 | fork in the road (easy downhill vs hard uphill) | Easy choices now make a hard life; hard choices make an easy one (discipline/mindset) | "Easy choices, hard life. Hard choices, easy life." (often attributed to Jerzy Gregorek)
