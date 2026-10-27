@@ -1,6 +1,9 @@
 # Posted reels log
 Newest first. One line per reel: date | slot | metaphor | lesson | quote (if any)
 
+- 2026-10-28 | 20:00 | stonecutter hammering a rock (blow 101 splits it) | Every blow counts, even the ones that show nothing (patience/persistence) | "I know it was not that last blow that did it, but all that had gone before." (Jacob Riis, The Making of an American, 1901)
+- 2026-10-28 | 12:30 | row of growing dominoes | Small money habits don't add up, they multiply (money habits) | none
+- 2026-10-28 | 07:30 | climbing a hill with a backpack of excuses | You don't need more strength, you need fewer excuses (discipline/mindset) | none
 - 2026-10-27 | 20:00 | pulling a heavy cart (boss rides on top vs leader pulls first) | A boss says "go", a leader says "let's go"; lead from the front (leadership) | none
 - 2026-10-27 | 12:30 | leaky bucket under a paycheck tap | Before you earn more, plug the small leaks (money habits) | "Beware of little expenses; a small leak will sink a great ship." (Benjamin Franklin, The Way to Wealth, 1758)
 - 2026-10-27 | 07:30 | digging wells (many shallow holes vs one deep hole) | Focus: dig one deep hole instead of ten shallow ones (discipline/mindset) | none
