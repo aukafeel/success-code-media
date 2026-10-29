@@ -9,3 +9,4 @@ date | time | episode | title | metricool uuid
 2026-10-27 | 16:00 | #4 | Prophet Yunus and the Big Fish | -8792974829917942010
 2026-10-28 | 16:00 | #5 | The Honest Man and the Jar of Gold | 4793939499459757641
 2026-10-29 | 16:00 | #6 | Prophet Sulaiman and the Little Ant | 621020669501656292
+2026-10-30 | 16:00 | #7 | Charity Without Money! | 4312826674535943233
