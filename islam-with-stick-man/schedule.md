@@ -13,3 +13,4 @@ date | time | episode | title | metricool uuid
 2026-11-02 | 16:00 | #6 | Prophet Sulaiman and the Little Ant | youtube:jKH3lwlNY5U
 2026-11-03 | 16:00 | #7 | Charity Without Money! | youtube:IB_PJjL1uHo
 2026-11-04 | 16:00 | #8 | Prophet Ibrahim and the Idols | youtube:qp5gDqAjNKU
+2026-11-06 | 16:00 | #9 | Prophet Nuh and the Great Ark | youtube:yKPrdphNCxU
