@@ -17,3 +17,4 @@ date | time | episode | title | metricool uuid
 2026-11-07 | 16:00 | #10 | Luqman's Advice to His Son | youtube:m2lzr9f-7Vs
 2026-11-13 | 16:00 | #11 | The People of the Cave | youtube:pESAQuAuYYs
 2026-11-14 | 16:00 | #12 | Prophet Musa and the Sea | youtube:ehN0w78ndwc
+2026-11-15 | 16:00 | #13 | Prophet Sulaiman and the Hoopoe | youtube:XwSqm1ag_Fw
