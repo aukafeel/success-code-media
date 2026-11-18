@@ -9,3 +9,5 @@ One line per post: date | time | kind | tag | headline | key sources. Newest at 
 2026-11-19 | 18:30 | image | AI TOOLS | OpenAI Dots always-on agents (GPT-6 Astra, 4,000+ apps, Slack/Teams) | SiliconANGLE, The Next Web, AI Weekly
 2026-11-20 | 08:30 | video | ROBOTICS | Agility Robotics listed on Nasdaq as AGLT; AGCO deal; NVIDIA Halos | findskill.ai, The Robot Report, Turing Post
 2026-11-20 | 18:30 | image | AI & SEARCH | AI search changing discovery (ChatGPT 1/5 of Google, AI Overviews 64.7% of questions, 11% unsupported claims, ChatGPT business hub) | MarketingProfs
+2026-11-21 | 08:30 | video | DRONES | Uber Eats + Zipline launch drone delivery in Spring, Texas (8 lb, 70 mph, ~10 mi, 1M/day by 2029 target) | TechCrunch, Engadget
+2026-11-21 | 18:30 | image | AI MODELS | Tencent Hy4 flash (224B total/12B active, 1M context, ~$0.07/M input, 150+ tok/s) | Tencent announcement
