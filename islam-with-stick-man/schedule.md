@@ -21,3 +21,4 @@ date | time | episode | title | metricool uuid
 2026-11-16 | 16:00 | #14 | The Three Men and the Test | youtube:mjC5tQVlYKo
 2026-11-17 | 23:00 | #15 | The Army of the Elephant | youtube:7PcPxoyVrTI
 2026-11-18 | 16:00 | #16 | Dhul-Qarnayn and the Great Wall | youtube:decyfS9aSHg
+2026-11-19 | 16:00 | #17 | Hajar and the Well of Zamzam | 4206282575711651713
