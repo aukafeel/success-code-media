@@ -17,3 +17,4 @@ One line per post: date | time | kind | tag | headline | key sources. Newest at 
 2026-11-23 | 08:30 | video | ROBOTICS | GXO + Apptronik LOI: up to 1,000 Apollo humanoids over 4 yrs if trials pass, first NA deployments late 2027, RaaS | DC Velocity, eWeek, Unite.AI, Robotics 24/7
 2026-11-24 | 08:30 | video | AI MODELS | OpenAI GPT-6.2 Astra and Sol (Astra $8/$40, 20% cheaper; 22% fewer output tokens on GDPval v2; Sol ~1/7 cost on everyday tasks) | Let's Data Science, AI Weekly, OfficeChai, TestingCatalog
 2026-11-21 | 12:30 | video | EXPLAINER | How Claude works vs Claude Code (tokens, next-token prediction, chat vs agent loop, approvals) – animated explainer, voice | Claude Code docs
+2026-11-25 | 12:30 | video | EXPLAINER | Who is winning the AI race (AA index: Fable 5.2 64.6, GPT-6.2 Astra 62.1, Gemini 4 Carbon 60.0; Arena: Google top two; launches 8 days apart) – dark race look, voice | Artificial Analysis via modelgrep/OfficeChai/Visual Capitalist, Arena
