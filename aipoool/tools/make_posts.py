@@ -101,6 +101,8 @@ def mix_voice(src, vo, dst, start=0.4):
 def video(p, path):
     import video_styles as VS
     style = VS.pick_style(p)
+    theme = VS.pick_theme(p)
+    B.set_theme(theme)
     tmp = tempfile.mkdtemp()
     base = B.background(seed_of(p))
     vo = voiceover(p["voiceover"], f"{tmp}/vo.mp3") if p.get("voiceover") else None
@@ -122,7 +124,8 @@ def video(p, path):
     else:
         add_music(f"{tmp}/silent.mp4", path)
     shutil.rmtree(tmp)
-    print("video style:", style, "voiceover:", bool(vo), "cues:", {k: (round(v, 2) if isinstance(v, float) else [round(x, 2) for x in v]) for k, v in cues.items()}, path)
+    B.set_theme("gold")
+    print("video style:", style, "theme:", theme, "voiceover:", bool(vo), "cues:", {k: (round(v, 2) if isinstance(v, float) else [round(x, 2) for x in v]) for k, v in cues.items()}, path)
 
 
 if __name__ == "__main__":

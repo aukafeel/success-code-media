@@ -26,6 +26,14 @@ def pick_style(p):
     return STYLES[day % len(STYLES)]
 
 
+def pick_theme(p):
+    """Colour/font theme for a video (logo never changes). Rotates by date; override with p["theme"]."""
+    if p.get("theme") in B.THEMES:
+        return p["theme"]
+    day = datetime.date.fromisoformat(p["when"][:10]).toordinal()
+    return B.VIDEO_THEMES[day % len(B.VIDEO_THEMES)]
+
+
 def default_cues(style, n=4):
     """Timeline for videos without a voiceover (fast reveals)."""
     if style == "slides":
@@ -53,10 +61,13 @@ def typed(title, t, dur=0.8):
 
 def outro(img, d, t0):
     a = ease(t0 / 0.5)
-    B.logo(img, 240, 330, 600)
-    d.text((B.W / 2, 560), "Stay ahead in the race of Tech & AI", font=B.font("Bold", 40),
+    lw = 600
+    lh = int(B.LOGO.height * lw / B.LOGO.width)
+    d.rounded_rectangle((220, 310, 220 + lw + 40, 330 + lh + 20), radius=30, fill=B.INK)  # clean area behind the logo
+    B.logo(img, 240, 330, lw)
+    d.text((B.W / 2, 565), "Follow AIPOOOL", font=B.font("Bold", 46),
            fill=mix((255, 255, 255), a), anchor="mm")
-    d.text((B.W / 2, 630), "Follow AIPOOOL for daily AI & robotics news", font=B.font("Medium", 30),
+    d.text((B.W / 2, 635), "to stay ahead in the race of Tech & AI", font=B.font("Medium", 32),
            fill=mix(B.GOLD, a), anchor="mm")
 
 
@@ -91,8 +102,8 @@ def draw_grid(img, d, p, t, cues):
 def list_row(d, i, big, small, a, dx):
     y = 450 + i * 140
     x0, x1 = 72 + dx, 1008 + dx
-    d.rounded_rectangle((x0, y, x1, y + 118), radius=22, fill=mix(B.CARD, a), outline=mix((60, 54, 30), a), width=2)
-    d.rounded_rectangle((x0, y, x0 + 250, y + 118), radius=22, fill=mix((34, 28, 12), a))
+    d.rounded_rectangle((x0, y, x1, y + 118), radius=22, fill=mix(B.CARD, a), outline=mix(B.EDGE, a), width=2)
+    d.rounded_rectangle((x0, y, x0 + 250, y + 118), radius=22, fill=mix(B.PANEL, a))
     bf = B.font("Black", 52)
     while d.textlength(big, font=bf) > 210 and bf.size > 30:
         bf = B.font("Black", bf.size - 4)
@@ -148,7 +159,7 @@ def draw_slides(img, d, p, t, cues):
     d.multiline_text((120 + dx, 620), small, font=B.font("SemiBold", 48), fill=mix(B.TXT, a), spacing=16)
     for j in range(n):
         x = 72 + j * 40
-        d.ellipse((x, 980, x + 18, 998), fill=B.GOLD if j <= k else (60, 54, 30))
+        d.ellipse((x, 980, x + 18, 998), fill=B.GOLD if j <= k else B.EDGE)
     B.footer(d)
 
 
