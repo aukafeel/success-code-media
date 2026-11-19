@@ -16,3 +16,4 @@ One line per post: date | time | kind | tag | headline | key sources. Newest at 
 2026-11-19 | 17:15 | image | AI IPO | Anthropic prices biggest IPO ever at $83, $81.3B raised, ANT on Nasdaq (extra post) | CNBC, CNN, Quartz, TechCrunch
 2026-11-23 | 08:30 | video | ROBOTICS | GXO + Apptronik LOI: up to 1,000 Apollo humanoids over 4 yrs if trials pass, first NA deployments late 2027, RaaS | DC Velocity, eWeek, Unite.AI, Robotics 24/7
 2026-11-24 | 08:30 | video | AI MODELS | OpenAI GPT-6.2 Astra and Sol (Astra $8/$40, 20% cheaper; 22% fewer output tokens on GDPval v2; Sol ~1/7 cost on everyday tasks) | Let's Data Science, AI Weekly, OfficeChai, TestingCatalog
+2026-11-21 | 12:30 | video | EXPLAINER | How Claude works vs Claude Code (tokens, next-token prediction, chat vs agent loop, approvals) – animated explainer, voice | Claude Code docs
