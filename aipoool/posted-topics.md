@@ -13,3 +13,4 @@ One line per post: date | time | kind | tag | headline | key sources. Newest at 
 2026-11-21 | 18:30 | image | AI MODELS | Tencent Hy4 flash (224B total/12B active, 1M context, ~$0.07/M input, 150+ tok/s) | Tencent announcement
 2026-11-22 | 08:30 | video | ROBOTICS | Google Gemini 4 Hydrogen for robotics + Antigravity Robotics plugin (YAM arm ready in ~10 min, snack sorter in ~1 hr, AA Robotics score 58) | Google Developers Blog, Humanoids Daily
 2026-11-22 | 18:30 | image | ENTERPRISE AI | Microsoft Ignite: Dynamics 365 in Copilot (57+ CX skills, 39+ ERP skills, Agent 365 Cost Management; internal study 25%+ less seller effort, 9% faster closes) | Microsoft Dynamics 365 Blog
+2026-11-19 | 17:15 | image | AI IPO | Anthropic prices biggest IPO ever at $83, $81.3B raised, ANT on Nasdaq (extra post) | CNBC, CNN, Quartz, TechCrunch
