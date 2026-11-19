@@ -43,39 +43,19 @@ def add_music(src, dst, volume=0.35):
                     "-t", f"{dur:.2f}", "-movflags", "+faststart", dst], check=True)
 
 
-def video(p, path, fps=30):
+def video(p, path):
+    import video_styles as VS
+    style = VS.pick_style(p)
     tmp = tempfile.mkdtemp()
     base = B.background(seed_of(p))
-    starts = [2.2 + i * 3.0 for i in range(4)]
-    end_cards = starts[-1] + 4.0
-    total = end_cards + 3.0
-    title = p["title"]
-    for f in range(int(total * fps)):
-        t = f / fps
-        img = base.copy(); d = ImageDraw.Draw(img)
-        if t < end_cards:
-            shown = title[: max(1, int(len(title) * min(1, t / 1.6)))]
-            B.header(img, d, p["tag"], shown)
-            for i, (big, small) in enumerate(p["points"]):
-                a = (t - starts[i]) / 0.5
-                if a > 0:
-                    a = min(1, a)
-                    B.card(d, i, big, small, alpha=a, dy=int((1 - a) * 40))
-            d.rectangle((0, B.H - 8, int(B.W * t / total), B.H), fill=B.GOLD)
-            B.footer(d)
-        else:
-            a = min(1, (t - end_cards) / 0.6)
-            B.logo(img, 240, 330, 600)
-            d.text((B.W / 2, 560), "Stay ahead in the race of Tech & AI", font=B.font("Bold", 40),
-                   fill=tuple(int(c * a) for c in (255, 255, 255)), anchor="mm")
-            d.text((B.W / 2, 630), "Follow AIPOOOL for daily AI & robotics news", font=B.font("Medium", 30),
-                   fill=tuple(int(c * a) for c in B.GOLD), anchor="mm")
+    for f, img in enumerate(VS.FRAMES[style](p, base)):
         img.save(f"{tmp}/{f:05d}.png")
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-framerate", str(fps), "-i", f"{tmp}/%05d.png",
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-framerate", str(VS.FPS), "-i", f"{tmp}/%05d.png",
                     "-c:v", "libx264", "-preset", "veryfast", "-crf", "30", "-pix_fmt", "yuv420p",
                     "-movflags", "+faststart", f"{tmp}/silent.mp4"], check=True)
     add_music(f"{tmp}/silent.mp4", path)
     shutil.rmtree(tmp)
+    print("video style:", style, path)
 
 
 if __name__ == "__main__":
@@ -83,7 +63,7 @@ if __name__ == "__main__":
     for p in mod.POSTS:
         if p["kind"] == "video":
             video(p, f"{out}/{p['id']}.mp4")
-            subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", "12", "-i", f"{out}/{p['id']}.mp4",
+            subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", "8", "-i", f"{out}/{p['id']}.mp4",
                             "-frames:v", "1", f"{out}/{p['id']}_frame.jpg"], check=True)
         else:
             still(p, f"{out}/{p['id']}.jpg")
