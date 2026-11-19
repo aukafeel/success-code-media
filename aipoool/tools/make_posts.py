@@ -31,6 +31,18 @@ def still(p, path):
     img.save(path, "JPEG", quality=84, optimize=True)
 
 
+def add_music(src, dst, volume=0.35):
+    """Mux the soft music bed under a silent video, faded out at the end."""
+    music = os.path.join(HERE, "music_bed.m4a")
+    dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", src],
+                               capture_output=True, text=True, check=True).stdout.strip())
+    fade_st = max(0, dur - 2.0)
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", src, "-stream_loop", "-1", "-i", music,
+                    "-filter_complex", f"[1:a]volume={volume},afade=t=in:d=1,afade=t=out:st={fade_st:.2f}:d=2[a]",
+                    "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "128k",
+                    "-t", f"{dur:.2f}", "-movflags", "+faststart", dst], check=True)
+
+
 def video(p, path, fps=30):
     tmp = tempfile.mkdtemp()
     base = B.background(seed_of(p))
@@ -61,7 +73,8 @@ def video(p, path, fps=30):
         img.save(f"{tmp}/{f:05d}.png")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-framerate", str(fps), "-i", f"{tmp}/%05d.png",
                     "-c:v", "libx264", "-preset", "veryfast", "-crf", "30", "-pix_fmt", "yuv420p",
-                    "-movflags", "+faststart", path], check=True)
+                    "-movflags", "+faststart", f"{tmp}/silent.mp4"], check=True)
+    add_music(f"{tmp}/silent.mp4", path)
     shutil.rmtree(tmp)
 
 
