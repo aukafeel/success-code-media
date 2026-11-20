@@ -21,3 +21,5 @@ One line per post: date | time | kind | tag | headline | key sources. Newest at 
 2026-11-23 | 18:30 | image | AI AGENTS | Model ML raises $250M Series B at $1.5B for personal AI agents for bankers (12x ARR YoY, 26x DAU, own models at 2% of frontier cost) | General Atlantic, Tech.eu, FF News
 2026-11-28 | 12:30 | video | EXPLAINER | What is an AI agent (chatbot vs agent, model+tools+memory+loop, example, approval) – dark amber/blue, voice | Anthropic 'Building effective agents'
 2026-12-02 | 12:30 | video | EXPLAINER | How does a robot work (sense/think/act, sensors, AI brain, motors, loop, balance & grip, VLA models) – dark cyan/violet/orange, voice | general robotics
+NOTE 20 Nov: knowledge videos moved to DAILY 12:30 – ep2 AI race -> Sun 22 Nov, ep3 agents -> Mon 23 Nov, ep4 robot -> Tue 24 Nov (media file still in 2026-12-02/), ep5 skills Wed 25 Nov.
+2026-11-25 | 12:30 | video | EXPLAINER | What are agent skills (folder + SKILL.md, scripts/templates, labels first, load when task matches, write your own) – editorial charcoal/coral/serif look, voice | Anthropic Agent Skills docs
