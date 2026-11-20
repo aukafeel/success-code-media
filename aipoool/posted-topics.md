@@ -20,3 +20,4 @@ One line per post: date | time | kind | tag | headline | key sources. Newest at 
 2026-11-25 | 12:30 | video | EXPLAINER | Who is winning the AI race (AA index: Fable 5.2 64.6, GPT-6.2 Astra 62.1, Gemini 4 Carbon 60.0; Arena: Google top two; launches 8 days apart) – dark race look, voice | Artificial Analysis via modelgrep/OfficeChai/Visual Capitalist, Arena
 2026-11-23 | 18:30 | image | AI AGENTS | Model ML raises $250M Series B at $1.5B for personal AI agents for bankers (12x ARR YoY, 26x DAU, own models at 2% of frontier cost) | General Atlantic, Tech.eu, FF News
 2026-11-28 | 12:30 | video | EXPLAINER | What is an AI agent (chatbot vs agent, model+tools+memory+loop, example, approval) – dark amber/blue, voice | Anthropic 'Building effective agents'
+2026-12-02 | 12:30 | video | EXPLAINER | How does a robot work (sense/think/act, sensors, AI brain, motors, loop, balance & grip, VLA models) – dark cyan/violet/orange, voice | general robotics
