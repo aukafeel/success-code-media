@@ -158,7 +158,7 @@ def s1(img, d, u, a):
 
 
 RACE = [("Claude Fable 5.2", "Anthropic", 64.6, LIME), ("GPT-6.2 Astra", "OpenAI", 62.1, CYAN),
-        ("Gemini 4 Carbon", "Google", 60.0, PINK)]
+        ("Gemini 4 Neon", "Google", 61.0, PINK), ("Gemini 4 Carbon", "Google", 60.0, VIOLET)]
 
 
 def race(img, d, u, a, second):
@@ -169,8 +169,8 @@ def race(img, d, u, a, second):
     lo, hi = 40.0, 66.0
     grow = pr(u, 0.3, 3.2)
     for i, (name, lab, sc, c) in enumerate(RACE):
-        y = 360 + i * 180
-        hl = (i == 0 and u < second) or (i in (1, 2) and u >= second + (0 if i == 1 else 4.8))
+        y = 330 + i * 150
+        hl = (i == 0 and u < second) or (i in (1, 2) and u >= second + (0 if i == 1 else 5.5))
         dim = 1.0 if (hl or u < second) else 0.85
         cur = lo + (sc - lo) * grow * (1 - 0.02 * math.sin(u * 6 + i) * (1 - grow))
         xe = x0 + (x1 - x0) * (cur - lo) / (hi - lo)
@@ -187,7 +187,7 @@ def race(img, d, u, a, second):
             ky = y - 40 + math.sin(u * 4) * 3
             d.polygon([(kx - 26, ky + 22), (kx - 26, ky - 6), (kx - 13, ky + 8), (kx, ky - 14), (kx + 13, ky + 8),
                        (kx + 26, ky - 6), (kx + 26, ky + 22)], fill=fade(LIME, a * pr(u, 3.2, 3.6)))
-    ctext(d, W // 2, 965, "Artificial Analysis Intelligence Index  ·  17-19 Nov 2026", F("m", 26), fade(MUTED, a))
+    ctext(d, W // 2, 965, "Artificial Analysis Intelligence Index  ·  20 Nov 2026", F("m", 26), fade(MUTED, a))
 
 
 def s2(img, d, u, a):
