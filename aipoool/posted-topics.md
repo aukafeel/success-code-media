@@ -23,3 +23,5 @@ One line per post: date | time | kind | tag | headline | key sources. Newest at 
 2026-12-02 | 12:30 | video | EXPLAINER | How does a robot work (sense/think/act, sensors, AI brain, motors, loop, balance & grip, VLA models) – dark cyan/violet/orange, voice | general robotics
 NOTE 20 Nov: knowledge videos moved to DAILY 12:30 – ep2 AI race -> Sun 22 Nov, ep3 agents -> Mon 23 Nov, ep4 robot -> Tue 24 Nov (media file still in 2026-12-02/), ep5 skills Wed 25 Nov.
 2026-11-25 | 12:30 | video | EXPLAINER | What are agent skills (folder + SKILL.md, scripts/templates, labels first, load when task matches, write your own) – editorial charcoal/coral/serif look, voice | Anthropic Agent Skills docs
+2026-11-21 | 15:30 | image | AI MODELS | Google Gemini 4 Neon (AA index 61, #3; #1 AA Coding Agent Index 58.6; $3/$15; 1M context) | Artificial Analysis, 9to5Google, AI Weekly
+2026-11-22 | 15:30 | image | AI AGENTS | Citi/PNC/Citizens: customers liable for third-party AI agent activity, even if hacked; read-only open banking allowed | TechCrunch, Unite.AI, The Paypers
