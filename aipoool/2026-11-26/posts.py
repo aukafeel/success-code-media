@@ -94,7 +94,7 @@ The important caveats:
 Even so, it shows how far AI agents have moved: from writing code to proposing, building and checking an entire hardware design.
 
 What this means for businesses: AI agents are starting to take on complex engineering work. The value will come from pairing them with strict testing and independent checks, so bold claims are proven before money is spent.""",
-        "tags": "#AIAgents #Semiconductors #Chips #Engineering #Innovation",
+        "tags": "#AIAgents #Semiconductors #Chips #Engineering #Hardware",
     },
 ]
 
