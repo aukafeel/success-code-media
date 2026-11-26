@@ -26,4 +26,6 @@ date | time | episode | title | metricool uuid
 2026-11-21 | 16:00 | #19 | Ibrahim and Ismail Build the Ka'bah | youtube:-p0xx-heYdM (metricool -6532470146877864835)
 2026-11-22 | 16:00 | #20 | Prophet Adam, the First Human | metricool 3845835578911048955
 2026-11-24 | 16:00 | #21 | Prophet Ayyub and the Gift of Patience | youtube:KUNoGCIQeHI (metricool -3169081990440792662, v2 Ryan voice)
-2026-11-25 | 16:00 | #22 | The Honest Man and the Wooden Log | metricool -2157597586913672896
+2026-11-25 | 16:00 | #22 | The Honest Man and the Wooden Log | youtube:IXdj4BwYUQs (metricool -2157597586913672896)
+2026-11-27 | 16:00 | #23 | Prophet Musa Helps at the Well | metricool (pending)
+2026-11-28 | 16:00 | #24 | The Miracles of Prophet Isa | metricool (pending)
