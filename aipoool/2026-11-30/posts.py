@@ -51,7 +51,7 @@ What this means for businesses: humanoids are being trained for one narrow, meas
         ],
         "body": """AI agents just rebuilt the core of a major production API, without taking it offline.
 
-On 25 November, Anthropic explained how Claude agents moved its Messages API, the service behind every Claude request, from Python to Rust.
+On 25 November, Anthropic explained how Claude agents moved its Messages API, the API developers use to build with Claude, from Python to Rust.
 
 The results Anthropic reported:
 - About 70% less CPU per request
